@@ -1,0 +1,123 @@
+.login{
+    height:667px;
+    position:relative;
+    .icon{
+        width:100%;
+        height:2.4rem;
+        position:relative;
+        img{
+            width:2.4rem;
+            height:1.2rem;
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%)
+        }
+        .arrow{
+            width:0.56rem;
+            height:0.56rem;
+            border:1px solid #ccc;
+            border-radius:50%;
+            position: absolute;
+            top:0.92rem;
+            margin-left:20px;
+            .fa-chevron-left{
+                font-size:20px;
+                padding:4px 0 0 4px;
+            }
+        }
+    }
+    .login-content{
+        width:100%;
+        height:10.9rem;
+        background-size:contain;
+        background:url("http://i1.lifevccdn.com/images/m/account/login-big-bg.jpg") no-repeat center;
+        .login-common{
+            .login-content-top{
+                h3{
+                    width:100%;
+                    height:1.68rem;
+                    text-align: center;
+                    line-height:1.68rem;
+                    color:#037049;
+                    font-size:20px;
+                }
+                .form{
+                    ul{
+                        li{
+                            width: 90%;
+                            margin: 0 auto;
+                            height: 1rem;
+                            border-bottom: 1px solid #dbdbdb;
+                            position: relative;
+                            input{
+                                font-size: .32rem;
+                                width: 100%;
+                                background: transparent;
+                                position: absolute;
+                                left: 0;
+                                top: 0;
+                                height: 1rem;
+                                box-sizing: border-box;
+                                border:0;
+                                color:#000;
+                            } 
+                        }
+                    }
+                }
+            }
+            .change{
+                padding: .18rem 0 .4rem;
+                text-align: right;
+                height: 1rem;
+                width: 90%;
+                margin: 0 auto;
+                font-size: 16px;
+                box-sizing: border-box;
+                position: relative;
+            }   
+        }
+        .login-content-bottom{
+            margin-top:20px;
+            display:flex;
+            justify-content: space-around;
+            // input{
+            //     width: 80%;
+            //     overflow: hidden;
+            //     display: block;
+            //     outline: none;
+            //     text-align: center;
+            //     font-size: 19px;
+            //     color: #fff;
+            //     line-height: .72rem;
+            //     letter-spacing: 20px;
+            //     text-indent: 20px;
+            //     box-sizing: border-box;
+            // }
+            .btn-submit{
+                width: 80%;
+                margin: 0 auto .3rem;
+                background-color: #3aad36;
+                border: 1px solid #3aad36;
+                border-radius: 5px;
+
+                border:none;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+                margin-top: .0.27999rem;
+                border-radius: 4px;
+                height: 0.9rem;
+                font-size: .32rem;
+                color: #fff;
+                //background: #1a191e;
+            }
+            .btn-register{
+               background:#ccc!important;
+            }
+        }
+    }
+}

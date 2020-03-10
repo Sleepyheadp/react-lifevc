@@ -1,0 +1,23 @@
+.footerNav{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 1.2rem;
+    border-top: 1px solid #ddd;
+    display: flex;
+    a{
+        flex:1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #ababab;
+        i{
+            font-size: .4rem;
+        }
+        
+    }
+    .active{
+        color: #009c42
+    }
+}
